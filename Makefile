@@ -5,4 +5,4 @@ all:
 	
 install:
 	mkdir -p $(DESTDIR)/usr/lib/node_modules/mixpanel
-	cp -a lib node_modules package.json $(DESTDIR)/usr/lib/node_modules/mixpanel
+	cp -a lib package.json $(DESTDIR)/usr/lib/node_modules/mixpanel
